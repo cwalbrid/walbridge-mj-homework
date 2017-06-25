@@ -1,0 +1,1 @@
+console.log('app.js be linked, mon')
