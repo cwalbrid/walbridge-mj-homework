@@ -5,7 +5,7 @@
 #container-full-header{
 	/*background-color: rgba(255, 0, 0, .2);*/
 	border: 1px solid gray;
-	height: 900px;
+	height: 830px;
 	z-index: -100;
 	
 }
@@ -61,6 +61,28 @@
 .glyph-header{
 	margin-left: 13px;
 }
+
+/*===================================================================*/
+
+
+
+.col-trails-copy{
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-top: 57px;
+}
+
+.h1-trails-copy{
+	font-family: 'Lato', sans-serif;
+	font-size: 58px;
+}
+
+.trails-copy{
+	margin-top: 25px;
+	font-size: 16.5px;
+	font-family: 'Lato', sans-serif;
+}
+
 
 
 /*===================================================================*/
