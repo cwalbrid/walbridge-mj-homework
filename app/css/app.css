@@ -89,7 +89,7 @@
 /*===================================================================*/
 #container-trail-hero{
 	border: 1px solid gray;
-	height: 855px;
+	height: 1655px;
 	z-index: -100;
 	text-align: center;
 	position: relative;
@@ -99,7 +99,7 @@
 
 }
 
-.img-row-hero{
+.img-col-hero{
 
 }
 
@@ -179,8 +179,41 @@
 }
 
 
+.col-slideshow{
+	border: 1px solid gray;
+	height: 300px;
+	background-color: rgba(255, 0, 0, .2);
+}
 
+.row-topo{
 
+}
+
+.img-row-topo{
+	text-align: center;
+}
+
+.col-nav-btn{
+	border: 1px solid gray;
+}
+
+.col-nav{
+	margin-top: -165px;
+}
+
+.button-nav{
+	background-color: rgba(0, 0, 0, .9);
+	/*border: solid 2px #fff;*/
+	/*padding: 12px 71px;*/
+	height: 50px;
+	width: 202px;
+	margin: 0 12px 30px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	transition: .05s;
+	border: none;
+}
 
 /*===================================================================*/
 #container-brands{
