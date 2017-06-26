@@ -2,35 +2,19 @@
 	font-family: 'Lato'; src:url('../assets/font/Lato/Lato-Regular.ttf'); 
 }
 
+/*Header Image=================================================*/
 #container-full-header{
-	/*background-color: rgba(255, 0, 0, .2);*/
-	border: 1px solid gray;
 	height: 855px;
 	z-index: -100;
 	text-align: center;
-	/*position: relative;*/
-	
-}
-
-.row-header{
-	
-}
-
-.img-row-header{
-	border: 2px solid gray;
-	/*position: absolute;*/
-	/*left: 151px;*/
-	z-index: -1;
 }
 
 .col-line-graphic{
 	z-index: 100;
-	/*border: 2px solid red;*/
 	text-align: center;
 	color: white;
 	margin-top: -139px;
 }
-
 
 .button-header{
 	background-color: rgba(0, 0, 0, .48);
@@ -38,7 +22,7 @@
 	padding: 12px 71px;
 	margin: 0 -4px;
 	font-family: 'Lato', sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	transition: .05s;
 }
 
@@ -48,8 +32,7 @@
 
 .button-header:active {
 	outline: none;
-	background-color: rgba(0, 0, 0, .68);
-	
+	background-color: rgba(0, 0, 0, .68);	
 }
 
 .button-header:focus{
@@ -65,10 +48,10 @@
 }
 
 
-
+/*Trail Copy===================================================================*/
 
 .col-trails-copy{
-	/*border: 1px solid red;*/
+	
 	text-align: center;
 	margin-top: 57px;
 }
@@ -80,14 +63,13 @@
 
 .trails-copy{
 	margin-top: 25px;
-	font-size: 16.5px;
+	font-size: 18px;
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 78px;
 }
 
 
-
-/*===================================================================*/
+/*Trail Hero Section===================================================================*/
 #container-trail-hero{
 	border: 1px solid gray;
 	height: 1655px;
@@ -96,29 +78,17 @@
 	position: relative;
 }
 
-.row-hero{
-
-}
-
-.img-col-hero{
-
-}
-
 .btn-hero{
 	position: absolute;
 	opacity: .8;
 	z-index: 100000;
-
 }
-
-
 
 .tiptext{
 	position: absolute;
 	z-index: 1000000;
 	left: 120px;
 	top: 20px;
-	/*visibility: hidden;*/
 	opacity: 0;
 	width: 200px;
 	background-color: rgba(0, 0, 0, .4);
@@ -134,7 +104,6 @@
 .tool-tip:hover .tiptext{
 	opacity: 1;
 }
-
 
 .btn-1{
 	left: 330px;
@@ -206,45 +175,13 @@
 	top: 554px;
 }
 
-/*===================================================================*/
-.col-slideshow{
-	border: 1px solid gray;
-	height: 310px;
-	/*background-color: rgba(255, 0, 0, .2);*/
-}
+
+/*slider============================================*/
 
 .slide{
 	display: inline-block;
 
 }
-
-
-.slide-left{
-	width: 240px;
-	clip-path: inset(0px 0px 15px 0px);
-}
-
-.slide-left img{
-	/*display: none;*/
-}
-
-.slide-featured{
-	margin-top: -13px;
-}
-
-.slide-right{
-	width: 240px;
-	clip-path: inset(0px 0px 15px 0px);
-}
-
-.slide-right img{
-	/*display: none;*/
-}
-
-.img-slide{
-
-}
-
 
 .carousel-control{
 	padding-top: 145px !important;
@@ -269,12 +206,7 @@
 }
 
 
-
-===================================================================
-
-.row-topo{
-
-}
+/*Logos=========================================*/
 
 .img-row-topo{
 	text-align: center;
@@ -290,8 +222,6 @@
 
 .button-nav{
 	background-color: rgba(0, 0, 0, .9);
-	/*border: solid 2px #fff;
-	/*padding: 12px 71px;*/
 	height: 50px;
 	width: 202px;
 	margin: 0 12px 30px;
@@ -314,11 +244,4 @@
 
 .button-nav:focus{
 	outline: none;
-}
-
-/*===================================================================*/
-#container-brands{
-	background-color: rgba(51, 204, 51, .2);
-	border: 1px solid gray;
-	height: 250px;
 }
