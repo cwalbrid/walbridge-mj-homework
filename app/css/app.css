@@ -82,6 +82,7 @@
 	margin-top: 25px;
 	font-size: 16.5px;
 	font-family: 'Lato', sans-serif;
+	margin-bottom: 78px;
 }
 
 
@@ -105,6 +106,8 @@
 
 .btn-hero{
 	position: absolute;
+	opacity: .8;
+	z-index: 100000;
 
 }
 
@@ -178,12 +181,57 @@
 	top: 554px;
 }
 
-
+/*===================================================================*/
 .col-slideshow{
 	border: 1px solid gray;
-	height: 300px;
-	background-color: rgba(255, 0, 0, .2);
+	height: 310px;
+	/*background-color: rgba(255, 0, 0, .2);*/
 }
+
+.slide{
+	display: inline-block;
+
+}
+
+
+.slide-left{
+	width: 240px;
+	clip-path: inset(0px 0px 15px 0px);
+}
+
+.slide-left img{
+	/*display: none;*/
+}
+
+.slide-featured{
+	margin-top: -13px;
+}
+
+.slide-right{
+	width: 240px;
+	clip-path: inset(0px 0px 15px 0px);
+}
+
+.slide-right img{
+	/*display: none;*/
+}
+
+.img-slide{
+
+}
+
+
+.carousel-control{
+	padding-top: 145px !important;
+	opacity: 1;
+	background-image: none !important;
+	z-index: 100000;
+}
+
+
+
+
+===================================================================
 
 .row-topo{
 
@@ -203,7 +251,7 @@
 
 .button-nav{
 	background-color: rgba(0, 0, 0, .9);
-	/*border: solid 2px #fff;*/
+	/*border: solid 2px #fff;
 	/*padding: 12px 71px;*/
 	height: 50px;
 	width: 202px;
@@ -213,6 +261,20 @@
 	color: #fff;
 	transition: .05s;
 	border: none;
+}
+
+.button-nav:hover{
+	background-color: rgba(0, 0, 0, .58);
+}
+
+.button-nav:active {
+	outline: none;
+	background-color: rgba(0, 0, 0, .68);
+	
+}
+
+.button-nav:focus{
+	outline: none;
 }
 
 /*===================================================================*/
