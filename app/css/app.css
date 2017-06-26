@@ -5,9 +5,10 @@
 #container-full-header{
 	/*background-color: rgba(255, 0, 0, .2);*/
 	border: 1px solid gray;
-	height: 830px;
+	height: 855px;
 	z-index: -100;
 	text-align: center;
+	/*position: relative;*/
 	
 }
 
@@ -63,7 +64,6 @@
 	margin-left: 13px;
 }
 
-/*===================================================================*/
 
 
 
@@ -88,15 +88,95 @@
 
 /*===================================================================*/
 #container-trail-hero{
-	background-color: rgba(255, 255, 0, .2);
 	border: 1px solid gray;
-	height: 500px;
+	height: 855px;
+	z-index: -100;
+	text-align: center;
+	position: relative;
 }
 
+.row-hero{
 
+}
 
+.img-row-hero{
 
+}
 
+.btn-hero{
+	position: absolute;
+
+}
+
+.btn-1{
+	left: 330px;
+	top: 21px;
+}
+
+.btn-2{
+	left: 420px;
+	top: 63px;
+}
+
+.btn-3{
+	left: 282px;
+	top: 103px;
+}
+
+.btn-4{
+	left: 364px;
+	top: 168px;
+}
+
+.btn-5{
+	left: 191px;
+	top: 188px;
+}
+
+.btn-6{
+	left: 696px;
+	top: 179px;
+}
+
+.btn-7{
+	left: 276px;
+	top: 249px;
+}
+
+.btn-8{
+	left: 594px;
+	top: 230px;
+}
+
+.btn-9{
+	left: 730px;
+	top: 291px;
+}
+
+.btn-10{
+	left: 802px;
+	top: 306px;
+}
+
+.btn-11{
+	left: 347px;
+	top: 350px;
+}
+
+.btn-12{
+	left: 859px;
+	top: 352px;
+}
+
+.btn-13{
+	left: 596px;
+	top: 417px;
+}
+
+.btn-14{
+	left: 710px;
+	top: 554px;
+}
 
 
 
